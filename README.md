@@ -1,3 +1,5 @@
+## current state of affairs: It won't compile, needs someone more pro than me. refer to here: https://discord.com/channels/461605380783472640/1073054452166168596 for more info
+
 <p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
 
 <h1 align="center">Marlin 3D Printer Firmware</h1>
