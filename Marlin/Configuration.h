@@ -87,7 +87,7 @@
 
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-  #define MOTHERBOARD BOARD_MKS_ROBIN_NANO_V3
+  #define MOTHERBOARD BOARD_BTT_SKR_MINI_E3_V2_0 
 #endif
 
 /**
@@ -2845,7 +2845,7 @@
 // This is RAMPS-compatible using a single 10-pin connector.
 // (For CR-10 owners who want to replace the Melzi Creality board but retain the display)
 //
-//#define CR10_STOCKDISPLAY
+#define CR10_STOCKDISPLAY
 
 //
 // Ender-2 OEM display, a variant of the MKS_MINI_12864
@@ -3033,7 +3033,7 @@
 // 480x320, 3.5", SPI Display with Rotary Encoder from MKS
 // Usually paired with MKS Robin Nano V2 & V3
 //
-#define MKS_TS35_V2_0
+// #define MKS_TS35_V2_0
 
 //
 // 320x240, 2.4", FSMC Display From MKS
@@ -3103,7 +3103,7 @@
 //
 // 480x320, 3.5", SPI Stock Display with Rotary Encoder from BIQU B1 SE Series
 //
-//#define BTT_TFT35_SPI_V1_0
+// #define BTT_TFT35_SPI_V1_0
 
 //
 // Generic TFT with detailed options
@@ -3135,7 +3135,7 @@
  *   root of your SD card, together with the compiled firmware.
  */
 //#define TFT_CLASSIC_UI
-#define TFT_COLOR_UI
+//#define TFT_COLOR_UI
 //#define TFT_LVGL_UI
 
 #if ENABLED(TFT_COLOR_UI)
